@@ -7,8 +7,24 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Xenturylens — Product engineering studio",
+  metadataBase: new URL("https://xenturylens.com"),
+  title: {
+    default: "Xenturylens — Product engineering studio",
+    template: "%s · Xenturylens",
+  },
   description: "Software built to last a hundred years.",
+  openGraph: {
+    title: "Xenturylens",
+    description: "Software built to last a hundred years.",
+    type: "website",
+  },
+};
+
+export const viewport = {
+  themeColor: [
+    { media: "(prefers-color-scheme: light)", color: "#fbfbfd" },
+    { media: "(prefers-color-scheme: dark)", color: "#08090a" },
+  ],
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

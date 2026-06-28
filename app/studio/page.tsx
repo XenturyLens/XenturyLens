@@ -5,7 +5,7 @@ import Values from "@/components/sections/Values";
 import People from "@/components/sections/People";
 
 export const metadata: Metadata = {
-  title: "Studio — Xenturylens",
+  title: "Studio",
   description: "A small team with a long horizon.",
 };
 

@@ -14,7 +14,7 @@ function Field({
       <input
         name={name}
         type={type}
-        className="mt-2 w-full rounded-xl border border-border bg-surface px-4 py-3 text-ink outline-none transition-colors focus:border-accent focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
+        className="mt-2 w-full rounded-xl border border-border bg-surface px-4 py-3 text-ink outline-none transition-colors focus:border-accent focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
       />
       {error && <span className="mt-1 block text-sm text-accent">{error}</span>}
     </label>
@@ -45,7 +45,7 @@ export default function ContactForm() {
         <textarea
           name="message"
           rows={5}
-          className="mt-2 w-full rounded-xl border border-border bg-surface px-4 py-3 text-ink outline-none transition-colors focus:border-accent focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
+          className="mt-2 w-full rounded-xl border border-border bg-surface px-4 py-3 text-ink outline-none transition-colors focus:border-accent focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
         />
         {state.fieldErrors?.message && (
           <span className="mt-1 block text-sm text-accent">{state.fieldErrors.message}</span>
@@ -57,7 +57,7 @@ export default function ContactForm() {
       <button
         type="submit"
         disabled={pending}
-        className="inline-flex items-center gap-2 rounded-full bg-ink px-6 py-3 text-sm font-medium text-surface transition-opacity hover:opacity-90 disabled:opacity-60 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
+        className="inline-flex items-center gap-2 rounded-full bg-ink px-6 py-3 text-sm font-medium text-surface transition-opacity hover:opacity-90 disabled:opacity-60 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
       >
         {pending ? "Sending…" : "Send enquiry"}
       </button>

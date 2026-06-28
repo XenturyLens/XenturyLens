@@ -5,7 +5,7 @@ import ServiceList from "@/components/sections/ServiceList";
 import ProcessSteps from "@/components/sections/ProcessSteps";
 
 export const metadata: Metadata = {
-  title: "Services — Xenturylens",
+  title: "Services",
   description: "How we build. One team, end to end.",
 };
 

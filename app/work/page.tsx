@@ -4,7 +4,7 @@ import Eyebrow from "@/components/primitives/Eyebrow";
 import WorkGrid from "@/components/sections/WorkGrid";
 
 export const metadata: Metadata = {
-  title: "Work — Xenturylens",
+  title: "Work",
   description: "Products we shipped, and still tend to.",
 };
 
