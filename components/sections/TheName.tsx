@@ -29,7 +29,7 @@ export default function TheName() {
 
   // Tall track; inner content pins to viewport center and reacts to scroll.
   return (
-    <section ref={ref} className="relative h-[180vh] border-t border-border">
+    <section ref={ref} className="relative h-[130vh] border-t border-border">
       <div className="sticky top-0 flex h-screen items-center">
         <div className="mx-auto w-full max-w-[1280px] px-6 md:px-10">
           <p className="font-mono text-xs uppercase tracking-[0.18em] text-grey">{theName.lead}</p>
